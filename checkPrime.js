@@ -1,7 +1,7 @@
 function check_prime(num){
   let count = 0;
   for(let i = 0; i<= num; i++){
-    if(num%i){
+    if(num%i == 0){
       count++;
     }
   }
@@ -12,9 +12,9 @@ function check_prime(num){
 }
 
 let num = 17; 
-if(check_prime(num)==true){
-  console.log("Prime");
+if(check_prime(num) == true){
+  console.log("It is a Prime Number");
 }
 else{
-  console.log("Not prime");
+  console.log("It is not a prime");
 }
