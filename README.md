@@ -1,2 +1,2 @@
 # git_practice_assignment2
-I have wrote some code for checking a prime number.
+I have written some code for checking a prime number.
